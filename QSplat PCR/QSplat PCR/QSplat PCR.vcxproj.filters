@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{5e977c37-62fe-4242-9b01-a69a35828b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GLEW">
+      <UniqueIdentifier>{6e52d944-d2a1-4fd4-ad84-fc5d2f4eac11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GLEW\Header Files">
+      <UniqueIdentifier>{8dcb177d-7417-4c42-829b-85792fed2f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\GLEW\Library">
+      <UniqueIdentifier>{0331e233-32e3-4dcb-826c-6fef2ba49071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderer">
+      <UniqueIdentifier>{500bfe04-27ca-4378-8a9f-52dc70af81b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Splatter">
+      <UniqueIdentifier>{41b94bd1-9731-48d7-ac10-0bbc303139b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QSplatModel">
+      <UniqueIdentifier>{28b6c6a1-436f-4eb5-bf88-2cdff10d520b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QT GUI">
+      <UniqueIdentifier>{2c632f0c-4394-40ce-b445-0956def5b77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderer">
+      <UniqueIdentifier>{5a7969fa-589c-4b28-a436-b96d47074f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Splatter">
+      <UniqueIdentifier>{bde8ad19-a323-488b-b212-524d9b023e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QSplatModel">
+      <UniqueIdentifier>{f0759cf8-efe9-4a63-b608-a0c21562ffa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QT GUI">
+      <UniqueIdentifier>{e2fe9b32-3827-4b1d-99ff-d2d135ad3ac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QSplat">
+      <UniqueIdentifier>{bd4edf09-6460-4a37-abe4-59ac4949ac5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{5a79562d-888c-448b-add4-6be4ff490fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{68eed736-ffd7-43df-8ab8-eeb5265c77a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{99eb1cb3-03f0-4188-9f60-c37ffb25dac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QSplatModel\CBuffer">
+      <UniqueIdentifier>{0092ecef-ec37-48cf-849c-a7558251d4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Profiler">
+      <UniqueIdentifier>{1680e310-8b78-4cf9-9393-7b6c28974ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Profiler">
+      <UniqueIdentifier>{454159a1-8cba-4794-b7ac-9e55e39f4099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Debug Bin">
+      <UniqueIdentifier>{ccbc1389-4a3b-4332-a2ae-3a9ff1221022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Mock">
+      <UniqueIdentifier>{b43be53a-4bfa-48dd-9624-d1e0ae8df733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Basic">
+      <UniqueIdentifier>{ad710348-771e-4203-99e4-c9004bd4ef88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Axis">
+      <UniqueIdentifier>{7b0e2059-1ec6-493e-b626-9e1a6b3e622c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Point">
+      <UniqueIdentifier>{fb7711e6-79a5-4c61-a626-118c7faea89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Models">
+      <UniqueIdentifier>{6a2f29e6-b67e-4a6c-a2c0-ed81b59dce84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Blend">
+      <UniqueIdentifier>{63e9f172-96f9-4beb-bd39-870f142ac485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Traversal">
+      <UniqueIdentifier>{f96905c2-795a-456a-919d-5f4cd1e78e9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Traversal">
+      <UniqueIdentifier>{602ff9ef-bdf5-4110-bbc8-20eb93948e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Quad">
+      <UniqueIdentifier>{8261c5d2-054d-427b-b7d4-42bfff3779ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\old">
+      <UniqueIdentifier>{f4d8e817-23a7-405e-aefa-cb1747e91c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\PreSortFrag">
+      <UniqueIdentifier>{1e08178a-4aed-4303-9446-519bb207cfb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="trackball.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camerarotator.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Source Files\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="QSplatModel.cpp">
+      <Filter>Source Files\QSplatModel</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicSplatter.cpp">
+      <Filter>Source Files\Splatter</Filter>
+    </ClCompile>
+    <ClCompile Include="MockSplatter.cpp">
+      <Filter>Source Files\Splatter</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicBuffer.cpp">
+      <Filter>Source Files\QSplatModel</Filter>
+    </ClCompile>
+    <ClCompile Include="PointSplatter.cpp">
+      <Filter>Source Files\Splatter</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendSplatter.cpp">
+      <Filter>Source Files\Splatter</Filter>
+    </ClCompile>
+    <ClCompile Include="Traverser.cpp">
+      <Filter>Source Files\Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="TraversalController.cpp">
+      <Filter>Source Files\Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadSplatter.cpp">
+      <Filter>Source Files\Splatter</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadSplatter_PC.cpp">
+      <Filter>Source Files\Splatter</Filter>
+    </ClCompile>
+    <ClCompile Include="OcclusionFilter.cpp">
+      <Filter>Source Files\Traversal</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendSplatterPreSortFrag.cpp">
+      <Filter>Source Files\Splatter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Camera.h">
+      <Filter>Header Files\Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="trackball.h">
+      <Filter>Header Files\Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="camerarotator.h">
+      <Filter>Header Files\Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Traverser.h">
+      <Filter>Header Files\Traversal</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\GL\glew.h">
+      <Filter>Resource Files\GLEW\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\glxew.h">
+      <Filter>Resource Files\GLEW\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\wglew.h">
+      <Filter>Resource Files\GLEW\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QSplat.h">
+      <Filter>Header Files\QSplat</Filter>
+    </ClInclude>
+    <ClInclude Include="QTypes.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="glmconfig.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="IOcclusionFilter.h">
+      <Filter>Header Files\QSplatModel\CBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IBuffer.h">
+      <Filter>Header Files\QSplatModel</Filter>
+    </ClInclude>
+    <ClInclude Include="ISplatter.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MockSplatter.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Header Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="MockBuffer.h">
+      <Filter>Header Files\QSplatModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\freeglut.h">
+      <Filter>Resource Files\GLEW\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\freeglut_ext.h">
+      <Filter>Resource Files\GLEW\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\freeglut_std.h">
+      <Filter>Resource Files\GLEW\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\GL\glut.h">
+      <Filter>Resource Files\GLEW\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QSplatModel.h">
+      <Filter>Header Files\QSplatModel</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicSplatter.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicBuffer.h">
+      <Filter>Header Files\QSplatModel</Filter>
+    </ClInclude>
+    <ClInclude Include="PointSplatter.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendSplatter.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="TraversalController.h">
+      <Filter>Header Files\Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadSplatter.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadSplatter_PC.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="OcclusionFilter.h">
+      <Filter>Header Files\Traversal</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendSplatterPreSortFrag.h">
+      <Filter>Header Files\Splatter</Filter>
+    </ClInclude>
+    <ClInclude Include="Array2D.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\glew32.dll">
+      <Filter>Resource Files\GLEW\Library</Filter>
+    </None>
+    <None Include="..\bin\freeglut.dll">
+      <Filter>Resource Files\GLEW\Library</Filter>
+    </None>
+    <None Include="..\x64\Debug\freeglut.dll">
+      <Filter>Resource Files\Debug Bin</Filter>
+    </None>
+    <None Include="..\x64\Debug\glew32.dll">
+      <Filter>Resource Files\Debug Bin</Filter>
+    </None>
+    <None Include="Shaders\mock_f.glsl">
+      <Filter>Resource Files\Shaders\Mock</Filter>
+    </None>
+    <None Include="Shaders\mock_v.glsl">
+      <Filter>Resource Files\Shaders\Mock</Filter>
+    </None>
+    <None Include="Shaders\mock_g.glsl">
+      <Filter>Resource Files\Shaders\Mock</Filter>
+    </None>
+    <None Include="Shaders\basic_f.glsl">
+      <Filter>Resource Files\Shaders\Basic</Filter>
+    </None>
+    <None Include="Shaders\basic_g.glsl">
+      <Filter>Resource Files\Shaders\Basic</Filter>
+    </None>
+    <None Include="Shaders\basic_v.glsl">
+      <Filter>Resource Files\Shaders\Basic</Filter>
+    </None>
+    <None Include="Shaders\axis_f.glsl">
+      <Filter>Resource Files\Shaders\Axis</Filter>
+    </None>
+    <None Include="Shaders\axis_v.glsl">
+      <Filter>Resource Files\Shaders\Axis</Filter>
+    </None>
+    <None Include="Shaders\point_f.glsl">
+      <Filter>Resource Files\Shaders\Point</Filter>
+    </None>
+    <None Include="Shaders\point_v.glsl">
+      <Filter>Resource Files\Shaders\Point</Filter>
+    </None>
+    <None Include="Model\lion_color.qs">
+      <Filter>Resource Files\Models</Filter>
+    </None>
+    <None Include="Shaders\blend_linked_f.glsl">
+      <Filter>Resource Files\Shaders\Blend</Filter>
+    </None>
+    <None Include="Shaders\blend_resolve_f.glsl">
+      <Filter>Resource Files\Shaders\Blend</Filter>
+    </None>
+    <None Include="Shaders\blend_resolve_v.glsl">
+      <Filter>Resource Files\Shaders\Blend</Filter>
+    </None>
+    <None Include="Shaders\blend_v.glsl">
+      <Filter>Resource Files\Shaders\Blend</Filter>
+    </None>
+    <None Include="Shaders\fragment.frag">
+      <Filter>Resource Files\Shaders\old</Filter>
+    </None>
+    <None Include="Shaders\vertex.vert">
+      <Filter>Resource Files\Shaders\old</Filter>
+    </None>
+    <None Include="Shaders\quad_f.glsl">
+      <Filter>Resource Files\Shaders\Quad</Filter>
+    </None>
+    <None Include="Shaders\quad_g.glsl">
+      <Filter>Resource Files\Shaders\Quad</Filter>
+    </None>
+    <None Include="Shaders\quad_pc_f.glsl">
+      <Filter>Resource Files\Shaders\Quad</Filter>
+    </None>
+    <None Include="Shaders\quad_pc_g.glsl">
+      <Filter>Resource Files\Shaders\Quad</Filter>
+    </None>
+    <None Include="Shaders\blend_quad_linked_f.glsl">
+      <Filter>Resource Files\Shaders\Quad</Filter>
+    </None>
+    <None Include="Shaders\blend_quad_sort_f.glsl">
+      <Filter>Resource Files\Shaders\PreSortFrag</Filter>
+    </None>
+    <None Include="Shaders\blend_sort_resolve_f.glsl">
+      <Filter>Resource Files\Shaders\PreSortFrag</Filter>
+    </None>
+    <None Include="Shaders\blend_quad_sort_g.glsl">
+      <Filter>Resource Files\Shaders\PreSortFrag</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="QSplat PCR.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\glew32.lib">
+      <Filter>Resource Files\GLEW\Library</Filter>
+    </Library>
+    <Library Include="..\lib\freeglut.lib">
+      <Filter>Resource Files\GLEW\Library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="QSplat PCR.rc" />
+  </ItemGroup>
+</Project>

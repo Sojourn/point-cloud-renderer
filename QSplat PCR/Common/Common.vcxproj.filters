@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\QSplat">
+      <UniqueIdentifier>{848a2085-e5bf-40e0-b8a8-178bd86787a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\QSplat\Quantization">
+      <UniqueIdentifier>{926c3876-1116-4e0c-858a-2d2b4d4b9c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QSplat">
+      <UniqueIdentifier>{23e193f9-4337-4419-aa5e-1e82196e8e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QSplat\Quantization">
+      <UniqueIdentifier>{c473e3c5-e310-47fb-97aa-b32474a5272b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{204c020a-2e48-44d5-89bf-55a37c9c345d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{c9141d7a-bd13-4d58-89e4-4f31b2c0f185}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="qsplat_spherequant.cpp">
+      <Filter>Source Files\QSplat\Quantization</Filter>
+    </ClCompile>
+    <ClCompile Include="qsplat_colorquant.cpp">
+      <Filter>Source Files\QSplat\Quantization</Filter>
+    </ClCompile>
+    <ClCompile Include="qsplat_normquant.cpp">
+      <Filter>Source Files\QSplat\Quantization</Filter>
+    </ClCompile>
+    <ClCompile Include="MappedFile.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="qsplat_util.h">
+      <Filter>Header Files\QSplat\Quantization</Filter>
+    </ClInclude>
+    <ClInclude Include="qsplat_colorquant.h">
+      <Filter>Header Files\QSplat\Quantization</Filter>
+    </ClInclude>
+    <ClInclude Include="qsplat_normquant.h">
+      <Filter>Header Files\QSplat\Quantization</Filter>
+    </ClInclude>
+    <ClInclude Include="qsplat_spherequant.h">
+      <Filter>Header Files\QSplat\Quantization</Filter>
+    </ClInclude>
+    <ClInclude Include="Endian.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MappedFile.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

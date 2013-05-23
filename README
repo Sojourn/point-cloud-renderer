@@ -1,0 +1,5 @@
+Build Instructions
+1. Add boost to QSplat PCR/include
+2. Build with Visual Studio 2012
+
+Check out the documentation for usage instructions
